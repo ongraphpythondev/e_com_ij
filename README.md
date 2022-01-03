@@ -1,7 +1,7 @@
 # e_com_ij
 Ecommerce Framework
 
-# zoom_intigration
+
 This POC is an ECommerce buildup. This POC includes the following:
   1) User authentication
   2) Product Listing
