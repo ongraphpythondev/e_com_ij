@@ -8,7 +8,7 @@ from account.models import User
 class CreateUserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = "__all__"
+       # fields = "__all__"
     
     def validate(self, attrs):
         print("here")
