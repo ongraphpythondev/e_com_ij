@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'knox',
     'rest_framework',
     'account',
+    'product',
 ]
 
 MIDDLEWARE = [
