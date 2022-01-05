@@ -26,7 +26,7 @@ class Cart(models.Model):
     def is_ordered(self):
         return hasattr(self, 'order')
 
-    
+    #called in serializer to add a product one by one
     def add_item(self, product:Product, quantity:int):
         if product.is_active and type(quantity).__name__ == 'int' and not self.is_ordered:
             if quantity < 1:
